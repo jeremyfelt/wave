@@ -6,10 +6,10 @@
   apt: pkg=python-software-properties state=present
 
 - name: Update svn apt sources
-  apt_repository: repo='deb http://ppa.launchpad.net/svn/ppa/ubuntu precise main' state=present
+  apt_repository: repo='ppa:svn/ppa' state=present
 
 - name: Update git-core apt sources
-  apt_repository: repo='deb http://ppa.launchpad.net/git-core/ppa/ubuntu precise main' state=present
+  apt_repository: repo='ppa:git-core/ppa' state=present
 
 - name: install common packages
   apt: pkg=$item state=present

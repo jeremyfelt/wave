@@ -1,6 +1,6 @@
 ---
 - name: Add PHP 5.4 apt repositories
-  apt_repository: repo='deb http://ppa.launchpad.net/ondrej/php5-oldstable/ubuntu precise main' state=present
+  apt_repository: repo='ppa:ondrej/php5-oldstable' state=present
 
 - name: Install php-fpm and dependencies
   action: apt pkg=$item state=installed
