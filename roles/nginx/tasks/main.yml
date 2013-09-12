@@ -1,6 +1,6 @@
 ---
 - name: Add Nginx 1.4 apt repository
-  apt_repository: repo='http://nginx.org/packages/ubuntu/ precise nginx'
+  apt_repository: repo='ppa:nginx/stable' state=present
 
 - name: Install nginx and dependencies
   action: apt pkg=$item state=installed
