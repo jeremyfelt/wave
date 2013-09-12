@@ -1,4 +1,4 @@
-# WAVE - WordPress in Ansible for Vagrant or Everywhere
+# WAVE - WordPress in Ansible for Vagrant and Everywhere
 
 WAVE is an exploration in using Ansible as a provisioner for a nice WordPress setup. The initial focus will be in creating a virtual environment in Vagrant. The secondary focus will be to expand that environment to a production server as well.
 
