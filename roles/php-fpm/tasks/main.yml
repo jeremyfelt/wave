@@ -18,3 +18,5 @@
     - php-pear
     - php5-gd
     - php-apc
+
+- service: name=php5-fpm state=started

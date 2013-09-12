@@ -6,3 +6,5 @@
   action: apt pkg=$item state=installed
   with_items:
     - nginx
+
+- service: name=nginx state=started
