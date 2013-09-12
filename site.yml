@@ -1,0 +1,12 @@
+---
+- name: Install Wordpress, MySQL, Nginx, and PHP-FPM
+  hosts: all
+  user: vagrant
+
+  roles:
+    - common
+    - mysql
+    - php5-fpm
+    - nginx
+    - memcached
+    - grunt

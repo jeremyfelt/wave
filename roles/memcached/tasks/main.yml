@@ -1,0 +1,5 @@
+---
+- name: Install php-fpm and dependencies
+  action: apt pkg=$item state=installed
+  with_items:
+    - memcached

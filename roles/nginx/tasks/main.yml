@@ -1,0 +1,5 @@
+---
+- name: Install nginx and dependencies
+  action: apt pkg=$item state=installed
+  with_items:
+    - nginx

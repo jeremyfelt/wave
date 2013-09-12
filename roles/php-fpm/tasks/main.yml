@@ -1,0 +1,17 @@
+---
+- name: Install php-fpm and dependencies
+  action: apt pkg=$item state=installed
+  with_items:
+    - php5-fpm
+    - php5-cli
+    - php5-common
+    - php5-dev
+    - php5-memcache
+    - php5-imagick
+    - php5-mcrypt
+    - php5-mysql
+    - php5-imap
+    - php5-curl
+    - php-pear
+    - php5-gd
+    - php-apc

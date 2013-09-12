@@ -1,0 +1,6 @@
+---
+- name: Install Grunt and dependencies
+  action: apt pkg=$item state=installed
+  with_items:
+    - g++
+    - nodejs
