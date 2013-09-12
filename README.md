@@ -15,3 +15,9 @@ WAVE is an exploration in using Ansible as a provisioner for a nice WordPress se
 
 * If you are using Windows or Linux, you'll need to replace the `brew install ansible` command with whatever it takes to get [Ansible](http://ansible.cc) installed on your host machine.
 * The vagrant-hostsupdater plugin is nice, but not necessary.
+
+## Current Status
+
+1. Visiting [http://wave.dev](http://wave.dev) will give you an Nginx welcome screen
+1. Visiting [http://10.10.99.99](http://10.10.99.99) will give you an Nginx welcome screen
+1. Nothing else.
