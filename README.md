@@ -9,3 +9,5 @@ WAVE is an exploration in using Ansible as a provisioner for a nice WordPress se
 1. `brew install ansible`
 1. Get this repo in a directory
 1. `vagrant up`
+
+If you are using Windows or Linux, you'll need to replace the `brew install ansible` command with whatever it takes to get [Ansible](http://ansible.cc) installed on your host machine.
