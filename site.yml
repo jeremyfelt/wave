@@ -6,7 +6,7 @@
   roles:
     - common
     - mysql
-    - php5-fpm
+    - php-fpm
     - nginx
     - memcached
     - grunt
