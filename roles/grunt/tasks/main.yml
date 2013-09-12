@@ -1,4 +1,7 @@
 ---
+- name: Add Node apt repository
+  apt_repository: repo='http://ppa.launchpad.net/chris-lea/node.js/ubuntu precise main' state=present
+
 - name: Install Grunt and dependencies
   action: apt pkg=$item state=installed
   with_items:
