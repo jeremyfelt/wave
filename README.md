@@ -13,7 +13,8 @@ WAVE is an exploration in using Ansible as a provisioner for a nice WordPress se
 
 **Notes:**
 
-* If you are using Windows or Linux, you'll need to replace the `brew install ansible` command with whatever it takes to get [Ansible](http://ansible.cc) installed on your host machine.
+* If you are using Linux, you'll need to replace the `brew install ansible` command with whatever it takes to get [Ansible](http://ansible.cc) installed on your host machine.
+* If you are using Windows, I'm likely not able to help you. There may be a way to compile Ansible from source if you have the right Python stuff installed. Good luck.
 * The vagrant-hostsupdater plugin is nice, but not necessary.
 
 ## Current Status
